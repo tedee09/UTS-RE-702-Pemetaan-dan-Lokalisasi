@@ -1,0 +1,61 @@
+[0.011s] Invoking command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake /home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox
+[0.118s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.260s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.299s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.659s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.663s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.839s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.957s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.040s] -- Found turtlebot4_msgs: 1.0.5 (/opt/ros/humble/share/turtlebot4_msgs/cmake)
+[1.077s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.133s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.133s] -- Configured cppcheck include dirs: /home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox/include
+[1.133s] -- Configured cppcheck exclude dirs and/or files: 
+[1.134s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.134s] -- Configured cpplint exclude dirs and/or files: 
+[1.134s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'uncrustify' to check C / C++ code style
+[1.134s] -- Configured uncrustify additional arguments: 
+[1.134s] -- Added test 'xmllint' to check XML markup files
+[1.200s] -- Configuring done
+[1.216s] -- Generating done
+[1.219s] -- Build files have been written to: /home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox
+[1.226s] Invoked command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake /home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox
+[1.227s] Invoking command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --build /home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox -- -j20 -l20
+[1.260s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_ignition_toolbox_lib[0m
+[1.273s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_main.cpp.o[0m
+[1.274s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_node.cpp.o[0m
+[8.650s] [ 60%] [32m[1mLinking CXX static library libturtlebot4_ignition_toolbox_lib.a[0m
+[8.857s] [ 60%] Built target turtlebot4_ignition_toolbox_lib
+[8.868s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_ignition_hmi_node[0m
+[8.881s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_hmi_node.dir/src/hmi_main.cpp.o[0m
+[10.366s] [100%] [32m[1mLinking CXX executable turtlebot4_ignition_hmi_node[0m
+[10.803s] [100%] Built target turtlebot4_ignition_hmi_node
+[10.811s] Invoked command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --build /home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox -- -j20 -l20
+[10.813s] Invoking command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --install /home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox
+[10.818s] -- Install configuration: ""
+[10.818s] -- Execute custom install script
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_toolbox
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_toolbox
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.sh
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.dsv
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.sh
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.dsv
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.bash
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.sh
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.zsh
+[10.818s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.dsv
+[10.819s] -- Symlinking: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.dsv
+[10.824s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/packages/turtlebot4_ignition_toolbox
+[10.824s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.824s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig.cmake
+[10.824s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig-version.cmake
+[10.824s] -- Up-to-date symlink: /home/tedee/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.xml
+[10.825s] Invoked command in '/home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tedee/ros2_ws/install/webots_ros2:/home/tedee/ros2_ws/install/webots_ros2_universal_robot:/home/tedee/ros2_ws/install/webots_ros2_turtlebot:/home/tedee/ros2_ws/install/webots_ros2_tiago:/home/tedee/ros2_ws/install/webots_ros2_tests:/home/tedee/ros2_ws/install/webots_ros2_tesla:/home/tedee/ros2_ws/install/webots_ros2_mavic:/home/tedee/ros2_ws/install/webots_ros2_husarion:/home/tedee/ros2_ws/install/webots_ros2_epuck:/home/tedee/ros2_ws/install/webots_ros2_crazyflie:/home/tedee/ros2_ws/install/my_robot_controller:/home/tedee/ros2_ws/install/webots_ros2_importer:/home/tedee/ros2_ws/install/webots_robot:/home/tedee/ros2_ws/install/webots_extern:/home/tedee/ros2_ws/install/py_pubsub:/home/tedee/ros2_ws/install/dijkstra_planner:/home/tedee/ros2_ws/install/aruco:/opt/ros/humble /usr/bin/cmake --install /home/tedee/turtlebot4_ws/build/turtlebot4_ignition_toolbox

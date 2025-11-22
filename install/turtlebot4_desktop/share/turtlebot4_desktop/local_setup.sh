@@ -1,0 +1,1 @@
+/home/tedee/turtlebot4_ws/build/turtlebot4_desktop/ament_cmake_environment_hooks/local_setup.sh

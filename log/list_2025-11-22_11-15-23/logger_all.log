@@ -1,0 +1,204 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tedee/turtlebot4_ws']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tedee/turtlebot4_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70d9bfa675b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x70d9bfa66620>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x70d9bfa66620>>, mixin_verb=('list',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tedee/turtlebot4_ws'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/log) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/log) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_desktop' with type 'ros.ament_cmake' and name 'turtlebot4_desktop'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_desktop/turtlebot4_viz' with type 'ros.ament_cmake' and name 'turtlebot4_viz'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/config) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/launch) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/maps) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_nav_uts/src) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_bringup'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_gui_plugins'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox' with type 'ros.ament_cmake' and name 'turtlebot4_ignition_toolbox'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tedee/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator' with type 'ros.ament_cmake' and name 'turtlebot4_simulator'
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
